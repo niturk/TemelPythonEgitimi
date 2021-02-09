@@ -121,7 +121,9 @@ z = x + y
 z = z + 1
 
 print(z)
+```
 
+```python
 a = 9
 b = 3
 
@@ -134,8 +136,9 @@ print(a % b) # mod alma a nin b den bolumunden kalan
 
 
 print(((a + b) / 2 - 4) * 12)
+```
 
-
+```python
 yas = 28
 print(yas)
 print(type(yas))
@@ -147,9 +150,6 @@ print(type(yas))
 ad = 'Nikita'
 yas = 28
 print('Ad ' + ad + ' Yas ' + yas)
-
-print(ad * 5)
-
 
 ```
 
@@ -180,14 +180,25 @@ print(x)
 ```python
 # mutable
 l = ['elma', 'armut']
+
 print(x[0])
+
+```
+
+```python
+l1 = ['elma', 'armut']
 l2 = ['domates', 'salatalik']
 l3 = l1 + l2
 print(l3)
+
 l2[0] = 'patates'
 l2.append('sogan') # eleman ekleme.
 l2.pop() # son elemani cikartir.
-l2.pop(0)
+l2.pop(0) # verilen siradaki elemani cikarir
+print(l2)
+```
+
+```python
 num_list = [3,10,1,8,9]
 num_list.sort()
 num_list.reverse()

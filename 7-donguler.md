@@ -39,6 +39,12 @@ else:
     print('i 5 ten kucuk degil.')
 ```
 
+* sonsuz dongu
+```python
+while True:
+    print('Sonsuzda bitecek, cok birsey kalmadi az bekle.')
+```
+
 #### Break / Continue / Pass
 ```python
 break: Donguyu kirarak devam eder.

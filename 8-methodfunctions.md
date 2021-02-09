@@ -87,3 +87,31 @@ if cift_sayi_mi(5):
 else:
     print('Tek')
 ```
+
+### Local Modul Kullanimi
+
+`modulum.py`
+```python
+def toplama(x,y):
+    return x + y
+def cikarma(x,y):
+    return x - y
+def carpma(x,y):
+    return x * y
+def bolme(x,y):
+    return x / y
+```
+
+`main.py`
+```python
+from modulum import bolme, carpma, cikarma, toplama
+
+sayi1 = 10
+sayi2 = 10
+
+sonuc = toplama(sayi1, sayi2)
+
+print(sonuc)
+```
+
+[Hata Yakalama](9-hatalar.md)

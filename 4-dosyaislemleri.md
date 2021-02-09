@@ -22,9 +22,10 @@ dosya.close()
 # dosya okuma
 dosya = open('rehber.txt', 'r')
 icerik = dosya.read()
+print(icerik)
+
 dosya.seek(0) # cursor basa getir.
 icerik_list = dosya.readlines()
-print(icerik)
 print(icerik_list)
 ```
 

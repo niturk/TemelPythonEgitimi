@@ -1,5 +1,15 @@
 # Karsilastirma Islemleri
 [Geri](4-dosyaislemleri.md)
+
+#### Boolean
+```python
+x = True
+print(type(x))
+print(1 > 2)
+print(2 == 2)
+print(x)
+```
+
 ```
 ==  esittir
 !=  esit degildir
