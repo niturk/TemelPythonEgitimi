@@ -14,6 +14,7 @@ w+ -> okuma ve yazma (var olan dosyanin uzerine yazar veya yeni olusturur.)
 # dosya yazma
 dosya = open('rehber.txt', 'w')
 dosya.write('Nikita')
+dosya.write('TURKMEN')
 dosya.close()
 ```
 

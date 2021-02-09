@@ -162,10 +162,10 @@ print(x)
 a = 10
 b = 12.2
 c = a + b
-print(type(a))
-print(type(b))
-print(type(c))
-print(c)
+print('A degiskenini tipi:', type(a))
+print('B degiskenini tipi:', type(b))
+print('B degiskenini tipi:', type(c))
+print('C degiskeninin degeri:', c)
 ```
 #### Boolean
 ```python
@@ -180,8 +180,8 @@ print(x)
 ```python
 # mutable
 l = ['elma', 'armut']
-
-print(x[0])
+ilk_eleman = l[0]
+print(ilk_eleman)
 
 ```
 
@@ -191,8 +191,9 @@ l2 = ['domates', 'salatalik']
 l3 = l1 + l2
 print(l3)
 
-l2[0] = 'patates'
-l2.append('sogan') # eleman ekleme.
+new_list = ['python', 'ruby', 'javascript']
+new_list[1] = 'patates'
+new_list.append('go') # eleman ekleme.
 l2.pop() # son elemani cikartir.
 l2.pop(0) # verilen siradaki elemani cikarir
 print(l2)
