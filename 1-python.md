@@ -2,9 +2,9 @@
 
 # github.com/niturk/TemelPythonEgitimi
 ### Indirme Linkleri
-[Python 3.8.7](https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe)
+[Python 3.8.10](https://www.python.org/downloads/release/python-3810/)
 
-[Visual Studio Code 1.53.0](https://code.visualstudio.com/sha/download?build=stable&os=win32-user)
+[Visual Studio Code](https://code.visualstudio.com/)
 
 **! indir ama kurma okumaya devam et**
 
